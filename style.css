@@ -1,12 +1,16 @@
-h1{
+h1 {
     text-align: center;
     font-size: 80px;
     color: turquoise;
     font-family: "Space Mono";
 }
-h2,h3{
+
+h2, h3 {
     text-align: center;
     font-size: 40px;
     font-family: "Cormorant Infant";
+}
 
+.wrapper {
+    
 }
