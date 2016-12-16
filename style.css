@@ -4,10 +4,13 @@ h1 {
     color: turquoise;
     font-family: "Space Mono";
 }
-
-h2 {
-    text-align: center;
+h2{
     font-size: 40px;
+    font-family: "Cormorant Infant";
+}
+.description {
+    text-align: center;
+    font-size: 20px;
     font-family: "Cormorant Infant";
 }
 
