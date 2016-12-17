@@ -42,8 +42,9 @@ div {
     color: green;
     background: black;
     font-family: "Cormorant Infant";
-    margin-left: 200px;
+    margin-left: 700px;
     margin-right: 200px;
+    float: right;
 }
 
 .characters #Virginia-Venus {
@@ -52,7 +53,8 @@ div {
     background: black;
     font-family: "Cormorant Infant";
     margin-left: 200px;
-    margin-right: 200px;
+    margin-right: 700px;
+    float: left;
 }
 
 .characters #Noah-Neptune {
@@ -60,8 +62,9 @@ div {
     color: #09B8FF;
     background: black;
     font-family: "Cormorant Infant";
-    margin-left: 200px;
+    margin-left: 700px;
     margin-right: 200px;
+    float: right;
 }
 
 .characters #Steven-Sun {
@@ -70,5 +73,27 @@ div {
     background: black;
     font-family: "Cormorant Infant";
     margin-left: 200px;
+    margin-right: 700px;
+    float: left;
+}
+
+.input{
+    font-size: 20px;
+    margin: 5px;
+    font-size: 20px;
+    color: white;
+    margin-left: 200px;
     margin-right: 200px;
+}
+
+.button{
+    border-radius: 5px;
+    font-family: "Cormorant Infant";
+    color: red;
+    font-size: 15px;
+    text-align: center;
+    background: black;
+    padding: 5px 10px 5px 10px;
+    margin: 20px;
+    height: 30px;
 }
