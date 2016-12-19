@@ -1,25 +1,105 @@
 h1 {
     text-align: center;
-    font-size: 80px;
+    font-size: 90px;
     color: turquoise;
     font-family: "Space Mono";
+    margin: 40px;
 }
-h2{
-    font-size: 40px;
-    font-family: "Cormorant Infant";
-}
-.description {
-    font-size: 20px;
+
+h2 {
+    font-size: 50px;
     font-family: "Cormorant Infant";
     color: turquoise;
-    
 }
- div{
-   background-image: url("img_galaxy.jpg"); 
-   background-attachment: fixed;
+
+hr {
+    border: 0;
+    height: 5px;
+    background: black;
+    padding: 1.5px;
+    margin: auto;
+}
+
+.description {
+    font-size: 30px;
+    font-family: "Cormorant Infant";
+    color: white;
+    margin: auto;
+}
+
+div {
+    background-image: url("img_galaxy.jpg");
+    background-attachment: absolute;
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
- }
+    background: url(img_galaxy.jpg) no-repeat center center fixed ; 
+    webkit-background-size: cover;
+    moz-background-size: cover;
+    o-background-size: cover;
+    background-size: cover;
+}
 
+.characters #Evie-Earth {
+    font-size: 25px;
+    color: green;
+    background: black;
+    font-family: "Cormorant Infant";
+    margin-left: 700px;
+    margin-right: 0px;
+    float: right;
+    margin-bottom: 10px;
+}
 
+.characters #Virginia-Venus {
+    font-size: 25px;
+    color: #FF3333;
+    background: black;
+    font-family: "Cormorant Infant";
+    margin-left:0px;
+    margin-right: 700px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.characters #Noah-Neptune {
+    font-size: 25px;
+    color: #09B8FF;
+    background: black;
+    font-family: "Cormorant Infant";
+    margin-left: 700px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    float: right;
+}
+
+.characters #Steven-Sun {
+    font-size: 25px;
+    color: #FFCF09;
+    background: black;
+    font-family: "Cormorant Infant";
+    margin-left:0px;
+    margin-right:700px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.input{
+    font-size: 20px;
+    margin: 5px;
+    font-size: 20px;
+    color: white;
+    margin: auto;
+}
+
+.button{
+    border-radius: 5px;
+    font-family: "Cormorant Infant";
+    color: red;
+    font-size: 15px;
+    text-align: center;
+    background: black;
+    padding: 5px 10px 5px 10px;
+    margin: 20px;
+    height: 30px;
+}
