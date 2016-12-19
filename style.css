@@ -17,25 +17,27 @@ hr {
     height: 5px;
     background: black;
     padding: 1.5px;
-    margin-left: 430px;
-    margin-right: 430px;
+    margin: auto;
 }
 
 .description {
-    font-size: 25px;
+    font-size: 30px;
     font-family: "Cormorant Infant";
     color: white;
-    margin-right: 450px;
-    margin-left: 450px;
+    margin: auto;
 }
 
 div {
     background-image: url("img_galaxy.jpg");
-    background-attachment: fixed;
+    background-attachment: absolute;
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
-    height: 100%;
+    background: url(img_galaxy.jpg) no-repeat center center fixed ; 
+    webkit-background-size: cover;
+    moz-background-size: cover;
+    o-background-size: cover;
+    background-size: cover;
 }
 
 .characters #Evie-Earth {
@@ -43,9 +45,10 @@ div {
     color: green;
     background: black;
     font-family: "Cormorant Infant";
-    margin-left: 750px;
-    margin-right: 430px;
+    margin-left: 700px;
+    margin-right: 0px;
     float: right;
+    margin-bottom: 10px;
 }
 
 .characters #Virginia-Venus {
@@ -53,8 +56,9 @@ div {
     color: #FF3333;
     background: black;
     font-family: "Cormorant Infant";
-    margin-left: 430px;
-    margin-right: 750px;
+    margin-left:0px;
+    margin-right: 700px;
+    margin-bottom: 10px;
     float: left;
 }
 
@@ -63,8 +67,9 @@ div {
     color: #09B8FF;
     background: black;
     font-family: "Cormorant Infant";
-    margin-left: 750px;
-    margin-right: 430px;
+    margin-left: 700px;
+    margin-right: 0px;
+    margin-bottom: 10px;
     float: right;
 }
 
@@ -73,8 +78,9 @@ div {
     color: #FFCF09;
     background: black;
     font-family: "Cormorant Infant";
-    margin-left: 430px;
-    margin-right: 750px;
+    margin-left:0px;
+    margin-right:700px;
+    margin-bottom: 10px;
     float: left;
 }
 
@@ -83,8 +89,7 @@ div {
     margin: 5px;
     font-size: 20px;
     color: white;
-    margin-left: 430px;
-    margin-right: 430px;
+    margin: auto;
 }
 
 .button{
