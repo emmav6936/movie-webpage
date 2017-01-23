@@ -4,13 +4,33 @@ h1 {
     color: turquoise;
     font-family: "Space Mono";
     margin: 40px;
+    text-shadow: 1px 1px 2px white, 0 0 25px blue, 0 0 5px blue;
+
 }
+h5 {
+    text-align: center;
+    font-size: 90px;
+    color: turquoise;
+    font-family: "Space Mono";
+    margin: 40px;
+    text-shadow: 1px 1px 2px white, 0 0 25px blue, 0 0 5px blue;
+
+}
+/*#video{
+    background-color:red;
+    height:500px;
+    width:100px;
+    transform:translate(500px);
+}*/
 
 h2 {
     font-size: 50px;
     font-family: "Cormorant Infant";
     color: turquoise;
-}
+    /*animation-name:spin;*/
+    
+} 
+
 h4 {
     font-size: 30px;
     color: white;
@@ -43,24 +63,30 @@ div {
     moz-background-size: cover;
     o-background-size: cover;
     background-size: cover;
-
 }
 
 .characters #Evie-Earth {
     font-size: 25px;
     color: green;
-    background: black;
+    background: linear-gradient(blue,green,white);
     font-family: "Cormorant Infant";
     margin-left: 700px;
     margin-right: 0px;
     float: right;
     margin-bottom: 10px;
+    width: 800px;
+    height: 700px;
+    transition: width 2s;
+}
+#Evie-Earth:hover {
+    width: 100px;
+}
 }
 
 .characters #Virginia-Venus {
     font-size: 25px;
     color: #FF3333;
-    background: black;
+    background:linear-gradient(red,orange,white);
     font-family: "Cormorant Infant";
     margin-left:0px;
     margin-right: 700px;
@@ -71,7 +97,7 @@ div {
 .characters #Noah-Neptune {
     font-size: 25px;
     color: #09B8FF;
-    background: black;
+    background: linear-gradient(navy,blue,gray);
     font-family: "Cormorant Infant";
     margin-left: 700px;
     margin-right: 0px;
@@ -82,7 +108,7 @@ div {
 .characters #Steven-Sun {
     font-size: 25px;
     color: #FFCF09;
-    background: black;
+    background: linear-gradient(orange,yellow,white);
     font-family: "Cormorant Infant";
     margin-left:0px;
     margin-right:700px;
@@ -109,3 +135,4 @@ div {
     margin: 20px;
     height: 30px;
 }
+
