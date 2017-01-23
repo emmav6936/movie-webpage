@@ -1,3 +1,5 @@
+
+/*Solar High Heading*/
 h1 {
     text-align: center;
     font-size: 90px;
@@ -7,6 +9,7 @@ h1 {
     text-shadow: 1px 1px 2px white, 0 0 25px blue, 0 0 5px blue;
 
 }
+/*Solar High Heading Upside Down-Mirror Effect*/
 h5 {
     text-align: center;
     font-size: 90px;
@@ -14,23 +17,19 @@ h5 {
     font-family: "Space Mono";
     margin: 40px;
     text-shadow: 1px 1px 2px white, 0 0 25px blue, 0 0 5px blue;
+    transform: rotateX(180deg);
 
 }
-/*#video{
-    background-color:red;
-    height:500px;
-    width:100px;
-    transform:translate(500px);
-}*/
 
+/*summary intro*/
 h2 {
     font-size: 50px;
     font-family: "Cormorant Infant";
     color: turquoise;
-    /*animation-name:spin;*/
+   
     
 } 
-
+/*Trailer*/
 h4 {
     font-size: 30px;
     color: white;
@@ -44,14 +43,14 @@ hr {
     padding: 1.5px;
     margin: auto;
 }
-
+/*Plot teaser*/
 .description {
     font-size: 30px;
     font-family: "Cormorant Infant";
     color: white;
     margin: auto;
 }
-
+/*Background*/
 div {
     background-image: url("img_galaxy.jpg");
     background-attachment: absolute;
@@ -64,7 +63,7 @@ div {
     o-background-size: cover;
     background-size: cover;
 }
-
+/*1st Character*/
 .characters #Evie-Earth {
     font-size: 25px;
     color: green;
@@ -76,13 +75,13 @@ div {
     margin-bottom: 10px;
     width: 800px;
     height: 700px;
-    transition: width 2s;
+    transition: width 2s;/*transition*/
 }
 #Evie-Earth:hover {
     width: 100px;
-}
-}
+}/*transition needs this to work*/
 
+/*2nd Character*/
 .characters #Virginia-Venus {
     font-size: 25px;
     color: #FF3333;
@@ -93,7 +92,7 @@ div {
     margin-bottom: 10px;
     float: left;
 }
-
+/*3rd Character*/
 .characters #Noah-Neptune {
     font-size: 25px;
     color: #09B8FF;
@@ -104,10 +103,10 @@ div {
     margin-bottom: 10px;
     float: right;
 }
-
+/*4th Character*/
 .characters #Steven-Sun {
     font-size: 25px;
-    color: #FFCF09;
+    color: #FFCF09; /*text color*/
     background: linear-gradient(orange,yellow,white);
     font-family: "Cormorant Infant";
     margin-left:0px;
@@ -115,7 +114,7 @@ div {
     margin-bottom: 10px;
     float: left;
 }
-
+/*content all the way on the bottom*/
 .input{
     font-size: 20px;
     margin: 5px;
