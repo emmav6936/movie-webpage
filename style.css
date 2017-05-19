@@ -51,8 +51,9 @@ hr {
     margin: auto;
 }
 /*Background*/
-div {
-    background-image: url("img_galaxy.jpg");
+
+body{
+     background-image: url("img_galaxy.jpg");
     background-attachment: absolute;
     background-repeat: no-repeat;
     background-position: center;
@@ -63,6 +64,18 @@ div {
     o-background-size: cover;
     background-size: cover;
 }
+/*div {*/
+/*    background-image: url("img_galaxy.jpg");*/
+/*    background-attachment: absolute;*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: center;*/
+/*    text-align: center;*/
+/*    background: url(img_galaxy.jpg) no-repeat center center fixed ; */
+/*    webkit-background-size: cover;*/
+/*    moz-background-size: cover;*/
+/*    o-background-size: cover;*/
+/*    background-size: cover;*/
+/*}*/
 /*1st Character*/
 .characters #Evie-Earth {
     font-size: 25px;
@@ -75,7 +88,7 @@ div {
     margin-bottom: 10px;
     width: 800px;
     height: 700px;
-    transition: width 2s;/*transition*/
+    transition: width 2s; /*transition*/
 }
 #Evie-Earth:hover {
     width: 100px;
@@ -91,7 +104,15 @@ div {
     margin-right: 700px;
     margin-bottom: 10px;
     float: left;
+    width: 800px;
+    height: 700px;
+    transition: width 2s; /*transition*/
 }
+
+#Virginia-Venus:hover {
+    width: 100px;
+    
+}/*transition needs this to work*/
 /*3rd Character*/
 .characters #Noah-Neptune {
     font-size: 25px;
@@ -102,7 +123,15 @@ div {
     margin-right: 0px;
     margin-bottom: 10px;
     float: right;
+    width: 800px;
+    height: 700px;
+    transition: width 2s; /*transition*/
 }
+
+#Noah-Neptune:hover {
+    width: 100px;
+    
+}/*transition needs this to work*/
 /*4th Character*/
 .characters #Steven-Sun {
     font-size: 25px;
@@ -113,7 +142,15 @@ div {
     margin-right:700px;
     margin-bottom: 10px;
     float: left;
+    width: 800px;
+    height: 70px;
+    transition: width 2s; /*transition*/
 }
+
+#Steven-Sun:hover {
+    width: 100px;
+    
+}/*transition needs this to work*/
 /*content all the way on the bottom*/
 .input{
     font-size: 20px;
